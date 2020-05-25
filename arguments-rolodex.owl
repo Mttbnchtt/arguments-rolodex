@@ -1,0 +1,2493 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/matteo/ontologies/2020/0/untitled-ontology-194/"
+     xml:base="http://www.semanticweb.org/matteo/ontologies/2020/0/untitled-ontology-194/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:sdg="http://purl.unep.org/sdg/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:obda="https://w3id.org/obda/vocabulary#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/matteo/ontologies/2020/0/untitled-ontology-194"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000086 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000086">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T11:51:42Z</dc:date>
+        <rdfs:label xml:lang="en">bio-bibliographical_notice</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000090 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000090">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T11:57:06Z</dc:date>
+        <rdfs:label xml:lang="en">comment</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000114">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:54:28Z</dc:date>
+        <rdfs:label xml:lang="en">characterization</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000181 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000181">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:33:19Z</dc:date>
+        <rdfs:label xml:lang="en">composition_publication</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000182 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000182">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:33:35Z</dc:date>
+        <rdfs:label xml:lang="en">date_of_composition</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000183 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000183">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:33:59Z</dc:date>
+        <rdfs:label xml:lang="en">original_title</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000184 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000184">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:34:06Z</dc:date>
+        <rdfs:label xml:lang="en">alternative_title</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000195 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000195">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:35:27Z</dc:date>
+        <rdfs:label xml:lang="en">biography</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000086"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000196 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000196">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:35:35Z</dc:date>
+        <rdfs:label xml:lang="en">bibliography</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000086"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000198 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000198">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:36:20Z</dc:date>
+        <rdfs:label xml:lang="en">personal_repository</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000086"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000201 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000201">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:43:08Z</dc:date>
+        <rdfs:label xml:lang="en">notable_achievements</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000086"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000202 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000202">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:46:04Z</dc:date>
+        <rdfs:label xml:lang="en">related_resources</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000086"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000213 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000213">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:03:09Z</dc:date>
+        <rdfs:label xml:lang="en">year_first_publication</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000214 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000214">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:05:21Z</dc:date>
+        <rdfs:label xml:lang="en">year_firt_publication_current_edition</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000215 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000215">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:06:26Z</dc:date>
+        <rdfs:label xml:lang="en">place_publication</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000216 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000216">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:06:56Z</dc:date>
+        <rdfs:label xml:lang="en">published_posthumous</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000218 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000218">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:08:05Z</dc:date>
+        <rdfs:label xml:lang="en">publisher</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000219 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000219">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:08:24Z</dc:date>
+        <rdfs:label xml:lang="en">edition</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000220 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000220">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:08:28Z</dc:date>
+        <rdfs:label xml:lang="en">editor</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000222 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000222">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:09:28Z</dc:date>
+        <rdfs:label xml:lang="en">series</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000223 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000223">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:09:49Z</dc:date>
+        <rdfs:label xml:lang="en">translation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000224 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000224">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:10:06Z</dc:date>
+        <rdfs:label xml:lang="en">table_of_contents</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000226 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000226">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:10:54Z</dc:date>
+        <rdfs:label xml:lang="en">total_volumes</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000227 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000227">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:11:01Z</dc:date>
+        <rdfs:label xml:lang="en">website</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000228 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000228">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:11:07Z</dc:date>
+        <rdfs:label xml:lang="en">url</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000229 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000229">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:58:12Z</dc:date>
+        <rdfs:label xml:lang="en">volume</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000230 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000230">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T14:58:27Z</dc:date>
+        <rdfs:label xml:lang="en">original_language</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000231">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:01:55Z</dc:date>
+        <rdfs:label xml:lang="en">journal</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000232">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:02:27Z</dc:date>
+        <rdfs:label xml:lang="en">date_of_birth</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000195"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000233">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:02:37Z</dc:date>
+        <rdfs:label xml:lang="en">date_of_death</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000195"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000234 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000234">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:03:04Z</dc:date>
+        <rdfs:label xml:lang="en">alternative_name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000195"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000235 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000235">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:03:13Z</dc:date>
+        <rdfs:label xml:lang="en">full_name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000195"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000236 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000236">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:03:20Z</dc:date>
+        <rdfs:label xml:lang="en">original_name</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000195"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000237 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000237">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:04:21Z</dc:date>
+        <rdfs:label xml:lang="en">primary_source</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000238 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000238">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:04:26Z</dc:date>
+        <rdfs:label xml:lang="en">secondary_source</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000240 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000240">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:43:27Z</dc:date>
+        <rdfs:label xml:lang="en">contribution_data</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000241 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000241">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:43:36Z</dc:date>
+        <rdfs:label xml:lang="en">premise_conclusion_form</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000242 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000242">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:43:40Z</dc:date>
+        <rdfs:label xml:lang="en">text</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000243 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000243">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:43:48Z</dc:date>
+        <rdfs:label xml:lang="en">summary</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000244 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000244">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:44:05Z</dc:date>
+        <rdfs:label xml:lang="en">excerpt</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000245 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000245">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:44:43Z</dc:date>
+        <rdfs:label xml:lang="en">source</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000246 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000246">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:45:04Z</dc:date>
+        <rdfs:label xml:lang="en">ISBN</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000249 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000249">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:49:27Z</dc:date>
+        <rdfs:label xml:lang="en">journal_homepage</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000250 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000250">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T18:04:54Z</dc:date>
+        <rdfs:label xml:lang="en">expository_text</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000010 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000010">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.unep.org/sdg/PHIL_0000000004"/>
+                    <rdf:Description rdf:about="http://purl.unep.org/sdg/PHIL_0000000040"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:24:06Z</dc:date>
+        <rdfs:label xml:lang="en">has_author</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000011 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000011">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.unep.org/sdg/PHIL_0000000004"/>
+                    <rdf:Description rdf:about="http://purl.unep.org/sdg/PHIL_0000000040"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:24:20Z</dc:date>
+        <rdfs:label xml:lang="en">about_issue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000012 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000012">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.unep.org/sdg/PHIL_0000000004"/>
+                    <rdf:Description rdf:about="http://purl.unep.org/sdg/PHIL_0000000040"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000001"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:25:52Z</dc:date>
+        <rdfs:label xml:lang="en">about_subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000034 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000034">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:44:00Z</dc:date>
+        <rdfs:label xml:lang="en">cited_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000036 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000036">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:48:42Z</dc:date>
+        <rdfs:label xml:lang="en">has_source</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000052">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000050"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:06:08Z</dc:date>
+        <rdfs:label xml:lang="en">has_time</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000053">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000051"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:06:29Z</dc:date>
+        <rdfs:label xml:lang="en">has_geographic_area</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000126 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000126">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T22:05:11Z</dc:date>
+        <rdfs:label xml:lang="en">refers_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000161 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000161">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:03:24Z</dc:date>
+        <rdfs:label xml:lang="en">affiliated</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000191 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000191">
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000188"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:28:48Z</dc:date>
+        <rdfs:label xml:lang="en">has_repository</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000256 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000256">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T11:13:51Z</dc:date>
+        <rdfs:label xml:lang="en">related_contribution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000001 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000001">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:13:24Z</dc:date>
+        <rdfs:label xml:lang="en">subject</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000002 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000002">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000001"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:13:30Z</dc:date>
+        <sdg:PHIL_0000000090>The taxonomy of the philosophical fields ought to derive from and reflect the most updated taxonomy of the philosophical fields that one finds at www.philpapers.org. It is legitimate to add more specific fields under what are leaves in the philpapers taxonomy. It is illegittimate to deviate from the philpapers taxonomy in any other way.</sdg:PHIL_0000000090>
+        <rdfs:label xml:lang="en">philosophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000003 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000003">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000001"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:13:33Z</dc:date>
+        <rdfs:label xml:lang="en">mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000004 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000004">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:14:41Z</dc:date>
+        <rdfs:label xml:lang="en">contribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000005 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000005">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000019"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:15:27Z</dc:date>
+        <rdfs:label xml:lang="en">philosophy_of_mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000006 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000006">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:15:38Z</dc:date>
+        <rdfs:label xml:lang="en">mathematical_intuition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000008 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000008">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:22:52Z</dc:date>
+        <rdfs:label xml:lang="en">quotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000013 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000013">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:25:59Z</dc:date>
+        <rdfs:label xml:lang="en">issue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000015 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000015">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:26:50Z</dc:date>
+        <rdfs:label xml:lang="en">argument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000016 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000016">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:27:12Z</dc:date>
+        <rdfs:label xml:lang="en">objection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000017 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000017">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:27:15Z</dc:date>
+        <rdfs:label xml:lang="en">doubt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000018 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000018">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:27:22Z</dc:date>
+        <rdfs:label xml:lang="en">question</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000019 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000019">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000002"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:28:09Z</dc:date>
+        <rdfs:label xml:lang="en">philosophy_of_science_logic_and_mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000031 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000031">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:42:54Z</dc:date>
+        <rdfs:label xml:lang="en">profession</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000032 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000032">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:43:03Z</dc:date>
+        <rdfs:label xml:lang="en">mathematician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000033 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000033">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:43:07Z</dc:date>
+        <rdfs:label xml:lang="en">philosopher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000039 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000039">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000005"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:53:01Z</dc:date>
+        <rdfs:label xml:lang="en">philosophy_of_mathematical_practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000040 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000040">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:57:02Z</dc:date>
+        <rdfs:label xml:lang="en">work_medium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000041 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000041">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:57:33Z</dc:date>
+        <rdfs:label xml:lang="en">book</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000050 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000050">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:05:51Z</dc:date>
+        <rdfs:label xml:lang="en">time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000051 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000051">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:05:55Z</dc:date>
+        <rdfs:label xml:lang="en">space</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000054 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000054">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000001"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:13:52Z</dc:date>
+        <rdfs:label xml:lang="en">psychology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000055 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000055">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000054"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:14:09Z</dc:date>
+        <rdfs:label xml:lang="en">cognitive_psychology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000056 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000056">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000006"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:15:48Z</dc:date>
+        <rdfs:label xml:lang="en">crisis_of_mathematical_intuition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000057 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000057">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000056"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:18:47Z</dc:date>
+        <rdfs:label xml:lang="en">Peano_curves_and_intuition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000080 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000080">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000188"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T11:45:15Z</dc:date>
+        <rdfs:label xml:lang="en">database</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000089 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000089">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000003"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T11:55:10Z</dc:date>
+        <rdfs:label xml:lang="en">algebra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000091 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000091">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T12:25:28Z</dc:date>
+        <rdfs:label xml:lang="en">psychologist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000092 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000092">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T12:25:41Z</dc:date>
+        <rdfs:label xml:lang="en">physicist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000093 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000093">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T12:33:43Z</dc:date>
+        <rdfs:label xml:lang="en">project</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000094 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000094">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T12:34:16Z</dc:date>
+        <rdfs:label xml:lang="en">sketch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000108 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000108">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:51:25Z</dc:date>
+        <rdfs:label xml:lang="en">mental_imagery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000109 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000109">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:51:57Z</dc:date>
+        <rdfs:label xml:lang="en">article</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000110 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000110">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:52:16Z</dc:date>
+        <rdfs:label xml:lang="en">thesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000111 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000111">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:52:19Z</dc:date>
+        <rdfs:label xml:lang="en">dissertation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000112 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000112">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000270"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:52:26Z</dc:date>
+        <rdfs:label xml:lang="en">project_report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000115 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000115">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000108"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:55:16Z</dc:date>
+        <rdfs:label xml:lang="en">visual_mental_imagery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000116 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000116">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000108"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:55:34Z</dc:date>
+        <rdfs:label xml:lang="en">auditory_mental_imagery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000117 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000117">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000108"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T22:55:44Z</dc:date>
+        <rdfs:label xml:lang="en">motor_mental_imagery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000130 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000130">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-18T17:59:12Z</dc:date>
+        <rdfs:label xml:lang="en">infinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000134 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000134">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-23T12:39:39Z</dc:date>
+        <rdfs:label xml:lang="en">experimental_mathematics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000143 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000143">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T21:53:45Z</dc:date>
+        <rdfs:label xml:lang="en">claim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000144 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000144">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T21:53:50Z</dc:date>
+        <rdfs:label xml:lang="en">hypothesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000147 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000147">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000002"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:17:15Z</dc:date>
+        <rdfs:label xml:lang="en">value_theory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000150 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000150">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000147"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:20:03Z</dc:date>
+        <rdfs:label xml:lang="en">philosophy_of_society_or_politics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000151 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000151">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:21:32Z</dc:date>
+        <rdfs:label xml:lang="en">government_or_democracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000152 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000152">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000151"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:21:38Z</dc:date>
+        <rdfs:label xml:lang="en">democracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000153 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000153">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000152"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:21:48Z</dc:date>
+        <rdfs:label xml:lang="en">participatory_democracy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000162 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000162">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:04:02Z</dc:date>
+        <rdfs:label xml:lang="en">institution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000163 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000163">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000162"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:04:11Z</dc:date>
+        <rdfs:label xml:lang="en">university</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000165 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000165">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000002"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:06:30Z</dc:date>
+        <rdfs:label xml:lang="en">metaphysics_and_epistemology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000166 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000166">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000165"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:06:39Z</dc:date>
+        <rdfs:label xml:lang="en">epistemology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000167 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000167">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000147"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:08:27Z</dc:date>
+        <rdfs:label xml:lang="en">normative_ethics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000169 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000169">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:18:56Z</dc:date>
+        <rdfs:label xml:lang="en">theologian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000186 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000186">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T12:30:45Z</dc:date>
+        <rdfs:label xml:lang="en">computer_scientist</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000188 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000188">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:27:02Z</dc:date>
+        <rdfs:label xml:lang="en">repository</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000189 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000189">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000188"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:27:11Z</dc:date>
+        <rdfs:label xml:lang="en">library</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000193 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000193">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000162"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:30:45Z</dc:date>
+        <rdfs:label xml:lang="en">institute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000206 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000206">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000188"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T11:19:29Z</dc:date>
+        <rdfs:label xml:lang="en">educational_website</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000247 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000247">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:45:27Z</dc:date>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000248 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000248">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T15:45:30Z</dc:date>
+        <rdfs:label xml:lang="en">method</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000253 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000253">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T11:10:47Z</dc:date>
+        <rdfs:label xml:lang="en">cognition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000254 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000254">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000253"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T11:10:54Z</dc:date>
+        <rdfs:label xml:lang="en">knowledge_transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000268 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000268">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000275"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T12:01:05Z</dc:date>
+        <rdfs:label xml:lang="en">argument_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000269 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000269">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T13:43:17Z</dc:date>
+        <rdfs:label xml:lang="en">note</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000270 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000270">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T13:43:48Z</dc:date>
+        <rdfs:label xml:lang="en">report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000271 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000271">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T13:44:23Z</dc:date>
+        <rdfs:label xml:lang="en">work_medium_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000272 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000272">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000040"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T13:45:03Z</dc:date>
+        <rdfs:label xml:lang="en">work_medium_physical_constitution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000273 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000273">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000272"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T13:45:28Z</dc:date>
+        <rdfs:label xml:lang="en">tablet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000274 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000274">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000275"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T14:06:40Z</dc:date>
+        <rdfs:label xml:lang="en">definition_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000275 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000275">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T14:13:41Z</dc:date>
+        <rdfs:label xml:lang="en">contribution_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000029 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000029">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:42:30Z</dc:date>
+        <rdfs:label xml:lang="en">Lévy_Paul</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000030 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000030">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:42:36Z</dc:date>
+        <rdfs:label xml:lang="en">Mandelbrot_Benoit_B</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000059 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000059">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:33:23Z</dc:date>
+        <rdfs:label xml:lang="en">Vilenkind_Naum_Yakovlevich</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000061 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000061">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:38:37Z</dc:date>
+        <rdfs:label xml:lang="en">Hahn_Hans</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000062 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000062">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T22:38:56Z</dc:date>
+        <rdfs:label xml:lang="en">Dieudonné_Jean</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000085 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000085">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T11:49:46Z</dc:date>
+        <sdg:PHIL_0000000086>www.mathshistory.st-andrews.ac.uk/Biographies/Harriot.html</sdg:PHIL_0000000086>
+        <rdfs:label xml:lang="en">Harriot_Thomas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000095 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000095">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T14:53:14Z</dc:date>
+        <rdfs:label xml:lang="en">Rosenberg_Alex</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000096 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000096">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000089"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000085"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-13T14:54:59Z</dc:date>
+        <sdg:PHIL_0000000090>[Harriot&apos;s] work on algebra ... was published 10 years after his death and was edited by people who did not fully appreciate the depth of his work. For example, it does not discuss negative solutions. (O&apos;Connor and Robertson, entry &quot;Thomas Harriot&quot; in the mathshistory.st-andrews.ac.uk website, retrived Jan 13 2020)</sdg:PHIL_0000000090>
+        <rdfs:label xml:lang="en">HarriotT_Artis.Analyticae.Praxis.ad.Aequationes.Algebraicas.Resolvendas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000097 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000097">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000003"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000059"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T11:45:24Z</dc:date>
+        <rdfs:label xml:lang="en">VilenkinN Stories about sets</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000098 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000098">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000003"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000029"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T11:46:31Z</dc:date>
+        <rdfs:label xml:lang="en">LévyP_Quelques.aspects.de.la.pensée.d&apos;un.mathematicien</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000099 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000099">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000003"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000030"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T11:49:05Z</dc:date>
+        <rdfs:label xml:lang="en">MandelbrotB_The.fractal.geometry.of.nature</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000100 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000100">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000006"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000030"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T11:56:53Z</dc:date>
+        <sdg:PHIL_0000000244>Ordinary words used in scientific discourse combine (a) diverse intuitive meanings, dependent on the user, and (b) formal definitions, each of which singles out one special meaning and enshrines it mathematically.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">mandelbrot.b1982quot.p782</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000101 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000101">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000006"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000030"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T11:59:30Z</dc:date>
+        <sdg:PHIL_0000000244>Iteration was studied in three rough states. The firs, concerned with complex z, ws dominated by Pierre Fatou (1878-1929) and by gaston Julia (1893-1978). Their publications are masterpieces of classic complex analysis, greatly admired by the mathematicians, but exceedingly difficult to build upon. In my work ... some of their basic findings are made intuitive by combining analysis with physics and detailed drawing. And innuerable new facts emerge...
+
+The fact that the Fatou-Julia findings did \textit{not} develop to become the \textit{source} of this theory suggests that even classical analysis the [sic] needs intuition to develop, and can be helped by the computer.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">mandelbrot.b1982quot.p370</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000102 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000102">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000006"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000030"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T12:01:34Z</dc:date>
+        <sdg:PHIL_0000000244>Hahn is dead wrong. To tame his own examples, I find it necessary to training our \textit{present} intuition or perform new tasks, but it does not suffer any discountinuous change of character... 
+
+Geometric intuition acknowledged long ago that it needs the assistance of logic, with its strange and tortuous methods. Why should logic keep trying to flee from intuition? 
+
+In any event, the typical mathematician&apos;s view of what is intuitive is wholly unreliable; it is impossible to permit it to serve as guide in model making; mathematics is too important to be abandoned to fanatic logicians.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">mandelbrot.b1982quot.p314</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000104 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000104">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000080"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T12:22:28Z</dc:date>
+        <rdfs:label xml:lang="en">Internet_Archive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000105 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000105">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000080"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T12:23:03Z</dc:date>
+        <rdfs:label xml:lang="en">Project_Gutenberg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000106 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000106">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T01:43:25Z</dc:date>
+        <rdfs:label xml:lang="en">Kuntze_Friedrich</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000107 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000107">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000057"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000062"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-15T12:47:01Z</dc:date>
+        <sdg:PHIL_0000000244>Some mathematical objects, like the Peano curve, are totally non-intuitive ..., extravagant.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">dieudonné.j1975p137</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000118 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000118">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000057"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000061"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000034"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000099"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T21:28:46Z</dc:date>
+        <sdg:PHIL_0000000244>[Peano motion] cannot possibly be grasped by intuition; it can only be understood by logical analysis.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">hahn.h1933quot0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000121 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000121">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000057"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000061"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000034"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000099"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T21:32:31Z</dc:date>
+        <sdg:PHIL_0000000244>A point on a curve is called a branch point if the boundary of any arbitrarily small neighborhood has more than two points in common with the curve... Intuition seems to indicate that it is impossible for a curve to be made up of nothing but ... branch points. This intuitive conviction had been refuted [by the] Sierpinski ... curve, \textit{all of whose points are branch points}.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">hahn.h1933quot1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000122">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000056"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000039"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000029"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000034"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000099"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T21:35:46Z</dc:date>
+        <sdg:PHIL_0000000244>I [have] always been surprised to hear it said that geometric intuition inevitably leads one to think that all continuous functions are differentiable. From my first encounter with the notion of derivative, my experience proved that the contrary is true.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">lévy.p1970quot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000123 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000123">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000057"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000059"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000034"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000099"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T21:53:24Z</dc:date>
+        <sdg:PHIL_0000000244>\textit{Everything had come unstrung!} It is difficult to put into words he effect that Peano&apos;s result had on the mathematical word. It seems that everything was in ruins, that all the basic mathematical concepts had lost their meaning.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">vilenkin.n1965quot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000124 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000124">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000006"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000034"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000099"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-16T21:59:35Z</dc:date>
+        <rdfs:label xml:lang="en">hahn.h1933quot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000127 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000127">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-18T17:57:16Z</dc:date>
+        <sdg:PHIL_0000000086>https://plato.stanford.edu/entries/al-kindi/</sdg:PHIL_0000000086>
+        <rdfs:comment>Abu Yusuf Ya‘qub ibn Ishaq al-Kindi</rdfs:comment>
+        <rdfs:label xml:lang="en">al-Kindi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000131 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000131">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000015"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000127"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-18T18:02:26Z</dc:date>
+        <sdg:PHIL_0000000250>When al-Kindi comes to argue explicitly against the eternity of the world, he uses Philoponus’ strategy of using Aristotle against himself. Aristotle famously held that there can be no such thing as an actual infinite. Thus, for instance, the body of the world cannot be infinitely large. Because the cosmos is finite in spatial magnitude, argues al-Kindi, nothing predicated of the body of the cosmos can be infinite. Since time is one of the things predicated of this body, time must be finite; therefore the world is not eternal.
+
+This argument seems to be a poor one. Even if Aristotle admits that nothing infinite can be predicated of a finite body, he will want to say that al-Kindi’s argument fails to take full account of the distinction between actual and merely potential infinities. An actual infinity is an infinity which is simultaneously present in its entirety – for example, an infinitely large body, or in general any set with an infinite number of members existing at the same time. A potential infinity is when a finite magnitude can be extended or multiplied indefinitely. For example, Aristotle thinks that any finite magnitude of space or time is potentially infinite, in that it can in principle be divided into as many parts as one wishes, with smaller divisions still possible. The body of the cosmos, as al-Kindi admits himself, is also potentially infinite, in the sense that there is nothing conceptually impossible about increasing its size indefinitely. Notice, though, that in either case the actual result of such a process will be finite: any determinate addition to the size of a body will still yield a body of finite size. Likewise, no matter how finely I divide a body, any particular act of division will yield a finite number of parts.
+
+Now, Aristotle believes that the eternity of the world commits him only to a potential infinity. This is because saying that the world has always existed does not imply that any infinity is presently actual. Rather, it implies only that “the world has already existed for N years” will be true for any value of N. One can, so to speak, go as far as one wishes into the past, positing increasingly large (but still finite) periods of past time, just as one can divide a body as finely as one wishes. And it is far from clear that this sort of potential infinity is inapplicable to a finite magnitude. Does al-Kindi have any response to this?
+
+He does, though his response comes only at the end of his treatment of the world’s eternity. The response, found also in Philoponus, is that even to reach the present moment, an actually infinite number of moments must already have elapsed. In other words, there is currently an actually infinite number of moments (or years, or whatever) that have elapsed “since the world began.” And, as Aristotle himself says, the infinite cannot be traversed. Whether this argument is successful is unclear. It seems to presuppose that we select an infinitely distant point in past time, and then reckon the number of years that have elapsed since then. But Aristotle will presumably want to block the initial move of selecting an infinitely distant point in past time, insisting that any particular point we choose in the past will be removed from the present by a merely finite number of years. 
+
+Ref.: Adamson, Peter, &quot;al-Kindi&quot;, The Stanford Encyclopedia of Philosophy (Winter 2019 Edition), Edward N. Zalta (ed.), URL = &lt;https://plato.stanford.edu/archives/win2019/entries/al-kindi/&gt;.</sdg:PHIL_0000000250>
+        <rdfs:label xml:lang="en">al-Kind.vs_infinite_past_time</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000135 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000135">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T16:01:26Z</dc:date>
+        <rdfs:label xml:lang="en">Giaquinto_Marcus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000136 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000136">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000039"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000135"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T16:04:42Z</dc:date>
+        <rdfs:label xml:lang="en">GiaquintoM_Visual.thinking.in.mathematics.An.epistemological.study</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000137 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000137">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T16:12:06Z</dc:date>
+        <rdfs:label xml:lang="en">Hadamard_Jacques</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000138 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000138">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000055"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000137"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-29T16:13:06Z</dc:date>
+        <sdg:PHIL_0000000243>Components of a creative processes:
+1. Partially random construction of combination.
+2. Choice of a combination of ideas.
+
+Typically, both components are, at least at some time, unconscious. One unconscious phase during which both processes may take place is the incubation phase.
+
+Both the construction of combinations and the choice requires volition (one wants to make a discovery or invention) and an esthetic or affective sense (a sense of beauty, perhaps scientific beauty).</sdg:PHIL_0000000243>
+        <rdfs:label xml:lang="en">HadamardJ_An.essay.on.the.psychology.of.invention.in.the.mathematical.field</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000154 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000154">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:22:03Z</dc:date>
+        <rdfs:label xml:lang="en">Menser_Michael</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000155 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000155">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000153"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000150"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000154"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-30T12:23:15Z</dc:date>
+        <rdfs:label xml:lang="en">MenserM_We.decide!.Theories.and.cases.in.participatory.democracy</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000158 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000158">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000161"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000164"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T22:54:56Z</dc:date>
+        <rdfs:label xml:lang="en">Hawley_Katherine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000159 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000159">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000166"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000167"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000158"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T22:55:33Z</dc:date>
+        <sdg:PHIL_0000000086>Hawley works at the University of St Andrews in Scotland. Her philosophical interests include trusts, distrust,trustworthiness, promising, assertion, and trying to integrate ideas about know-how with those issues. She is also interested in metaphysics.</sdg:PHIL_0000000086>
+        <rdfs:label xml:lang="en">HawleyK_How.to.be.trustworthy_2019</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000164 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000164">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000163"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:05:00Z</dc:date>
+        <rdfs:label xml:lang="en">University.of.St.Andrews_Scotland.UK</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000168 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000168">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000169"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:18:41Z</dc:date>
+        <rdfs:label xml:lang="en">Gregory_of_Nyssa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000180">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000168"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-18T01:31:24Z</dc:date>
+        <sdg:PHIL_0000000182>c. 375 (traditionally)</sdg:PHIL_0000000182>
+        <sdg:PHIL_0000000183>Pros Simplikion, peri pistews</sdg:PHIL_0000000183>
+        <sdg:PHIL_0000000243>Claim 1: the son is god from eternity
+P1) We must worship the son.
+P2) We can only worship what is god from eternity.
+
+Error 1: as human, the son has been created; therefore it is weaker than the creator.
+Correction: as acceptable within the economy of salvation, the son has become many things (sin, way, etc.) without ever losing his equality of power with respect to the father. [Gregory does not seem to have a specific argument for this though.]
+
+Error 2: the son cannot be both from eternity and generated.
+Correction:  the son is from the the father like the light is from the lamp. The lamp generates the light, but the light exists from the same time when the lamp (assumed to be turned on) exists.
+
+Error 3: the son is smaller than the father. [In which sense &quot;smaller&quot;? In the sense of younger or inferior or something else? How is this different from error 1?]
+Correction: (a) we cannot measure god, which is unmeasurable; (b) the son is the image (Greek: xaracter) of the father and, therefore, metrically (perhaps in some metaphorical sense of &quot;metrically&quot;) identical to the father; (c) from Jn 1:1 we know that the logos was with god; therefore there is no part of god that is without logos; therefore the logos is not metrically (perhaps in some metaphorical sense) inferior to or smaller than god.
+
+Error 4: the generated has a different nature than the non-generated; therefore the father does not have the same nature as the son.
+Correction: Adam (ungenerated man) and Abel (generated by Adam) have the same nature (i.e. humanity).
+
+Error 5: the spirit is not god. 
+Correction: the spirit has attributes that only god has.</sdg:PHIL_0000000243>
+        <rdfs:label xml:lang="en">Ad_Simplicium,_de_fide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000185">
+        <sdg:PHIL_0000000161 rdf:resource="http://purl.unep.org/sdg/PHIL_0000000187"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T12:21:45Z</dc:date>
+        <sdg:PHIL_0000000198>https://www.computer.org/csdl/search/default?type=author&amp;givenName=Charles&amp;surname=Severance</sdg:PHIL_0000000198>
+        <rdfs:label xml:lang="en">Severance_Charles</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000187 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000187">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000163"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:25:13Z</dc:date>
+        <rdfs:label xml:lang="en">University.of.Michigan_US</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000190 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000190">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000189"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:28:04Z</dc:date>
+        <rdfs:label xml:lang="en">IEEE.Computer.Society_Digital.Library</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000194 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000194">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000193"/>
+        <sdg:PHIL_0000000191 rdf:resource="http://purl.unep.org/sdg/PHIL_0000000190"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:31:14Z</dc:date>
+        <rdfs:label xml:lang="en">Institute.of.Electrical.and.Electronics.Engineers_US</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000199">
+        <sdg:PHIL_0000000161 rdf:resource="http://purl.unep.org/sdg/PHIL_0000000200"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:38:37Z</dc:date>
+        <sdg:PHIL_0000000086>https://en.wikipedia.org/wiki/Niklaus_Wirth</sdg:PHIL_0000000086>
+        <sdg:PHIL_0000000195>https://history.computer.org/pioneers/wirth.html</sdg:PHIL_0000000195>
+        <sdg:PHIL_0000000201>Creator of the following programming languages: Pascal, Oberon, Modula. He created these languages to improve the teaching of computer science and not for commercial purposes. He release these languages for free.</sdg:PHIL_0000000201>
+        <sdg:PHIL_0000000202>Interview with Charles Severance: https://www.rescuetime.com/blocked/url/https://www.computer.org/csdl/magazine/co/2012/07/mco2012070008/13rRUwbs1VM</sdg:PHIL_0000000202>
+        <rdfs:label xml:lang="en">Wirth_Niklaus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000200">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000163"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:41:37Z</dc:date>
+        <rdfs:label xml:lang="en">ETH.Zürich_CH</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000204">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000169"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T10:50:00Z</dc:date>
+        <rdfs:label xml:lang="en">Holloway_Richard</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000205">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000204"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T10:51:58Z</dc:date>
+        <rdfs:label xml:lang="en">HollowayR_A.Little.History.Of.Religion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000207">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000206"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000161"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000208"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T11:19:56Z</dc:date>
+        <rdfs:label xml:lang="en">Religious.Literacy.Project</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000208 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000208">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000163"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T11:20:35Z</dc:date>
+        <rdfs:label xml:lang="en">Harvard.University</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000209 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000209">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000206"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000161"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000210"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T11:21:46Z</dc:date>
+        <rdfs:label xml:lang="en">Religious.Studies.Bibliographies.And.Research.Guides</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000210 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000210">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000163"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-09T11:21:57Z</dc:date>
+        <rdfs:label xml:lang="en">University.Of.Kansas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000211 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000211">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000091"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T13:41:51Z</dc:date>
+        <rdfs:label xml:lang="en">Forsyth_Benjamin_Robert</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000212 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000212">
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000211"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-21T13:44:33Z</dc:date>
+        <sdg:PHIL_0000000195></sdg:PHIL_0000000195>
+        <sdg:PHIL_0000000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</sdg:PHIL_0000000213>
+        <sdg:PHIL_0000000228>https://doi.org/10.1080/23311908.2018.1523348</sdg:PHIL_0000000228>
+        <sdg:PHIL_0000000229 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</sdg:PHIL_0000000229>
+        <sdg:PHIL_0000000231>Cogent Psychology</sdg:PHIL_0000000231>
+        <sdg:PHIL_0000000249>https://www.tandfonline.com/loi/oaps20</sdg:PHIL_0000000249>
+        <rdfs:label xml:lang="en">ForsythB_Defining.far.transfer.via.thematic.similarity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000251 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000251">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000015"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000254"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000055"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000211"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000036"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000212"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T10:59:14Z</dc:date>
+        <sdg:PHIL_0000000241>P0) Agents can transfer knowledge from domain S to domain T even when S and T are structurally highly dissimilar and do not admit meaningful reconstruction significantly reducing their structural dissimilarity.
+
+P1) Structural-mapping theories of knowledge transfer can explain transfer of knowledge only among domains that are structurally similar (or conceived to be structurally similar after appropriate reconstruction).
+
+C) Structural-mapping theories of knowledge transfer cannot explain the instance of knowledge transfer mentioned in P0.</sdg:PHIL_0000000241>
+        <rdfs:label xml:lang="en">forsyth.br2018arg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000252 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000252">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000015"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000055"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000254"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000211"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000036"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000212"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000256"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000251"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T11:09:00Z</dc:date>
+        <sdg:PHIL_0000000241>P0) Sometimes agents transfer knowledge from domain S to domain T on the basis of their commitment to use knowledge about S to increase knowledge about T, regardless of the structural similarity holding or apparent between S and T (transfer of this type is called &quot;far transfer&quot;).
+
+P1) Similarities of a structural type (i.e. similarities among superficial items, lower-order relations, or higher-order relations) are not a basis for the commitment to use knowledge about S to increase knolwedge about T.
+
+C0) Structural similarities are not a basis for far transfer.
+
+P2) The cases of far transfer analyzed reveal thematic similarity between S and T.
+
+P3) Thematic similarity is a plausible basis for one&apos;s commitment to use knowledge about S to increase knowledge about T.
+
+C1) The basis for far transfer is thematical similarity.</sdg:PHIL_0000000241>
+        <rdfs:label xml:lang="en">forsyt.br2018arg0</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000266 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000266">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-24T12:52:00Z</dc:date>
+        <sdg:PHIL_0000000232>1694-11-21</sdg:PHIL_0000000232>
+        <sdg:PHIL_0000000233>1778-05-30</sdg:PHIL_0000000233>
+        <rdfs:label xml:lang="en">Voltaire</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
