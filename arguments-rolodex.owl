@@ -607,7 +607,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
-        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000040"/>
+        <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:48:42Z</dc:date>
         <rdfs:label xml:lang="en">has_source</rdfs:label>
@@ -2503,10 +2503,33 @@ C1) The basis for far transfer is thematical similarity.</sdg:PHIL_0000000241>
 
     <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000278">
         <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000062"/>
+            </owl:Restriction>
+        </rdf:type>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-30T21:53:59Z</dc:date>
         <sdg:PHIL_0000000244>La qualité essentielle d&apos;un mathématicien est l&apos;imagination; la logique ne sert qu&apos;à mettre les démonstrations sous une forme irréfutable, elle est incapable de les suggérer. L&apos;imagination se fonde sur une sorte d&apos;« intuition » des objets mathématiques étudiés, mais cela n&apos;a que très peu de contact avec ce qu&apos;on appelle d&apos;ordinaire 1&apos;« intuition » sensible, les objets mathématiques considérés étant le plus souvent l&apos;aboutissment d&apos;un long processus d&apos;abstraction qui leur ôte toute possibilité de représentation concrète. Cette « intuition » mathématique est avant tout le résultat d&apos;une longue familiarité avec le sujet étudié; mais en outre il peut s&apos;opérer des « transferts » d&apos;intuition d&apos;une théorie dans une autre; on en donne quelques exemples qui font ressortir la fécondité de tels transferts.</sdg:PHIL_0000000244>
-        <rdfs:label xml:lang="en">dieudonné.j1975quot</rdfs:label>
+        <rdfs:label xml:lang="en">dieudonné.j1975p39</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000279 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000279">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000109"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000062"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-30T22:07:13Z</dc:date>
+        <rdfs:label xml:lang="en">DieudonnéJ_L&apos;abstraction.et.l&apos;intuition.mathématique_1975</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
