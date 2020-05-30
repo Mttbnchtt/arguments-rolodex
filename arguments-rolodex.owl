@@ -2485,6 +2485,18 @@ C1) The basis for far transfer is thematical similarity.</sdg:PHIL_0000000241>
         <sdg:PHIL_0000000233>1778-05-30</sdg:PHIL_0000000233>
         <rdfs:label xml:lang="en">Voltaire</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000278 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000278">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000008"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-30T21:53:59Z</dc:date>
+        <sdg:PHIL_0000000244>La qualité essentielle d&apos;un mathématicien est l&apos;imagination; la logique ne sert qu&apos;à mettre les démonstrations sous une forme irréfutable, elle est incapable de les suggérer. L&apos;imagination se fonde sur une sorte d&apos;« intuition » des objets mathématiques étudiés, mais cela n&apos;a que très peu de contact avec ce qu&apos;on appelle d&apos;ordinaire 1&apos;« intuition » sensible, les objets mathématiques considérés étant le plus souvent l&apos;aboutissment d&apos;un long processus d&apos;abstraction qui leur ôte toute possibilité de représentation concrète. Cette « intuition » mathématique est avant tout le résultat d&apos;une longue familiarité avec le sujet étudié; mais en outre il peut s&apos;opérer des « transferts » d&apos;intuition d&apos;une théorie dans une autre; on en donne quelques exemples qui font ressortir la fécondité de tels transferts.</sdg:PHIL_0000000244>
+        <rdfs:label xml:lang="en">dieudonné.j1975quot</rdfs:label>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
