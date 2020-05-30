@@ -20,18 +20,18 @@ They are welcomed. Contact me if you want to help.
 There are two types of categories: main and auxiliary. The main categories are types of intellectual contributions. The auxiliary categories are types of information relevant to the study of the intellectual contributions. 
 
 ##### Main Categories
-The are 14 main categories. 11 names types of contributions and 2 names types of types of contributions.
+The are 14 main categories. 11 are types of contributions and 3 are types of types of contributions.
 
 The 12 types of contributions are the following:
 1. Argument (an ordered pair of a set of propositions, i.e. the premises, and a proposition, i.e. the conclusion)
 2. Claim (a proposition asserted to be true)
-3. Definition 
-4. Doubt (a proposition about whose truth-value one is uncertain)
-5. Hypothesis (a proposition toward which one has an interrogative attitude, sometimes also called conjecture)
-6. Method (the organization of investigational resources and moves at one's disposal and deemed to be sufficiently reliable from an epistemic point of view)
-7. Objection 
-8. Project (a planned or proposed undertaking, usually concerning the investigation of some issue and usuallu including a statement of the relevance of the possible outcomes and their connections to other inquiries)
-9. Question 
+3. Definition
+4. Hypothesis (a proposition whose truth-value one knowingly cannot determine)
+5. Method (the organization of investigational resources and moves at one's disposal and deemed to be sufficiently reliable from an epistemic point of view)
+6. Objection 
+7. Problem (a proposition toward which one has an interrogative attitude)
+8. Project (a planned or proposed undertaking, usually concerning the investigation of some issue and usually including a statement of the relevance of the possible outcomes and their connections to other inquiries)
+9. Theory (a class of propositions closed under logical consequence) 
 10. Quotation 
 11. Sketch.
 
@@ -40,7 +40,10 @@ The 3 types of types of contributions are the following:
 2. Definition_type (definitions can be explicit, like those at the beginning of Euclid's Elements book I, or implicit, like those in Hilbert's _Grundlagen der Geometrie_).
 3. Objection_type (the features common to several specific objections to specific arguments).
 
-Finally, I do not claim that either of these lists is correct or complete. I am open to deletion, addition, and revisions of any type. 
+I do not claim that either of these lists is correct or complete. I am open to deletion, addition, and revisions of any type. 
+
+See the folder _Categories_ for a discussion of the notions introduced in this paragraph.
+
 
 ##### Auxiliary categories
 There are 8 families of auxiliary categories:
