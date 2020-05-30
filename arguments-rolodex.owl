@@ -806,24 +806,13 @@
     
 
 
-    <!-- http://purl.unep.org/sdg/PHIL_0000000017 -->
-
-    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000017">
-        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
-        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:27:15Z</dc:date>
-        <rdfs:label xml:lang="en">doubt</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.unep.org/sdg/PHIL_0000000018 -->
 
     <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000018">
         <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:27:22Z</dc:date>
-        <rdfs:label xml:lang="en">question</rdfs:label>
+        <rdfs:label xml:lang="en">problem</rdfs:label>
     </owl:Class>
     
 
@@ -1466,6 +1455,28 @@
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-25T14:13:41Z</dc:date>
         <rdfs:label xml:lang="en">contribution_type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000276 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000276">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-30T21:13:32Z</dc:date>
+        <rdfs:label xml:lang="en">theory</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000277 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000277">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000275"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-30T21:13:53Z</dc:date>
+        <rdfs:label xml:lang="en">objection_type</rdfs:label>
     </owl:Class>
     
 
