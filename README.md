@@ -20,13 +20,13 @@ They are welcomed. Contact me if you want to help.
 There are two types of categories: main and auxiliary. The main categories are types of intellectual contributions. The auxiliary categories are types of information relevant to the study of the intellectual contributions. 
 
 ##### Main Categories
-The are 14 main categories. 11 are types of contributions and 2 are types of types of contributions.
+The are 14 main categories. 11 are types of contributions and 3 are types of types of contributions.
 
 The 12 types of contributions are the following:
 1. Argument (an ordered pair of a set of propositions, i.e. the premises, and a proposition, i.e. the conclusion)
 2. Claim (a proposition asserted to be true)
 3. Definition
-4. Hypothesis (a proposition that one indicates as worth studying but whose truth-value she knowingly cannot determine)
+4. Hypothesis (a proposition whose truth-value one knowingly cannot determine)
 5. Method (the organization of investigational resources and moves at one's disposal and deemed to be sufficiently reliable from an epistemic point of view)
 6. Objection 
 7. Problem (a proposition toward which one has an interrogative attitude)
@@ -35,14 +35,15 @@ The 12 types of contributions are the following:
 10. Quotation 
 11. Sketch.
 
-A few basic clarifications are in order. The word "hypothesis" is used in at least 3 different senses: (a) an assumption (especially a temporary one) to be tested or yet (mostly) unsupported, (b) a claim that, in principle, one can disprove, and (c) a proposition whose falsity cannot be established or legitimately assumed. In the first sense, one speak, for example, of the Continuum Hypothesis. In this sense, a hypothesis is sometimes also called a conjecture (whereas the word "conjecture" may indicate that the proponent of the conjecture expect it to be true). An example of the second meaning is the hypothesis that natural species evolve due to biological changes and environmental pressure. As an example of the third meaning, one can imagine raisining an objection to an argument by suggesting that a certain scenario has not been considered. In this ontology, I use the word "hypothesis" in none of these senses. Here, a hypothesis simply refers to a proposition that one expresses indicating as scientifically interesting but whose truth-value, under some assumptions, she is unable to decide at that time. There is no implication, or even implicature or expectation, that the author suspect or wishes the hypothesis to be true or that one can, even in principle, under some circumstances, determine its truth-value. For this reason, the ontology does not contain a category for doubts: I consider doubts as hypotheses of a kind.
-
 The 3 types of types of contributions are the following:
 1. Argument_type (the features common to arguments in a specific class, usually described as a schema of several arguments). In this sense, I speak of the Ontological Argument as a type of argument of which Anselm's, Descartes, and Plantinga's ones are specifications. It is sometimes useful to consider types of arguments because one can then study at a general level virtues and defects of several specific arguments
 2. Definition_type (definitions can be explicit, like those at the beginning of Euclid's Elements book I, or implicit, like those in Hilbert's _Grundlagen der Geometrie_).
 3. Objection_type (the features common to several specific objections to specific arguments).
 
-Finally, I do not claim that either of these lists is correct or complete. I am open to deletion, addition, and revisions of any type. 
+I do not claim that either of these lists is correct or complete. I am open to deletion, addition, and revisions of any type. 
+
+See the folder _Categories_ for a discussion of the notions introduced in this paragraph.
+
 
 ##### Auxiliary categories
 There are 8 families of auxiliary categories:
