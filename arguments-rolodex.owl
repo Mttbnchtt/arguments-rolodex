@@ -515,6 +515,17 @@
     
 
 
+    <!-- http://purl.unep.org/sdg/PHIL_0000000280 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000280">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-31T01:53:19Z</dc:date>
+        <rdfs:label xml:lang="en">reconstructed_by</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000240"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -610,6 +621,7 @@
         <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000271"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-12T21:48:42Z</dc:date>
+        <sdg:PHIL_0000000240></sdg:PHIL_0000000240>
         <rdfs:label xml:lang="en">has_source</rdfs:label>
     </owl:ObjectProperty>
     
