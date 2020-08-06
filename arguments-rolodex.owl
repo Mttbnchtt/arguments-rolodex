@@ -526,6 +526,28 @@
     
 
 
+    <!-- http://purl.unep.org/sdg/PHIL_0000000320 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000320">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:17:15Z</dc:date>
+        <rdfs:label xml:lang="en">year_first_publication_current_edition</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000326 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000326">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:23:33Z</dc:date>
+        <rdfs:label xml:lang="en">in_book</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000181"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -695,6 +717,28 @@
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T11:13:51Z</dc:date>
         <rdfs:label xml:lang="en">related_contribution</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000325 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000325">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:21:56Z</dc:date>
+        <rdfs:label xml:lang="en">published_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000327 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000327">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:26:57Z</dc:date>
+        <rdfs:label xml:lang="en">has_editor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1493,6 +1537,61 @@
     
 
 
+    <!-- http://purl.unep.org/sdg/PHIL_0000000312 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000312">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-18T01:49:09Z</dc:date>
+        <rdfs:label xml:lang="en">belief</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000313 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000313">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000312"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-18T01:49:23Z</dc:date>
+        <rdfs:label xml:lang="en">belief-revision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000317 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000317">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000013"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:11:11Z</dc:date>
+        <rdfs:label xml:lang="en">mathematical_practice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000323 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000323">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000031"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:20:27Z</dc:date>
+        <rdfs:label xml:lang="en">historian</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000324 -->
+
+    <owl:Class rdf:about="http://purl.unep.org/sdg/PHIL_0000000324">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000323"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:20:34Z</dc:date>
+        <rdfs:label xml:lang="en">historian_of_science</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1647,6 +1746,9 @@
         </rdf:type>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-01-14T11:46:31Z</dc:date>
+        <dc:date>Dorcrecth, NL</dc:date>
+        <sdg:PHIL_0000000218>Springer</sdg:PHIL_0000000218>
+        <sdg:PHIL_0000000326>Fernand Hallyn (ed.), Metaphor and analogy in the sciences.</sdg:PHIL_0000000326>
         <rdfs:label xml:lang="en">LévyP_Quelques.aspects.de.la.pensée.d&apos;un.mathematicien</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2436,9 +2538,9 @@ Correction: the spirit has attributes that only god has.</sdg:PHIL_0000000243>
         </rdf:type>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T10:59:14Z</dc:date>
-        <sdg:PHIL_0000000241>P0) Agents can transfer knowledge from domain S to domain T even when S and T are structurally highly dissimilar and do not admit meaningful reconstruction significantly reducing their structural dissimilarity.
+        <sdg:PHIL_0000000241>P1) Agents can transfer knowledge from domain S to domain T even when S and T are structurally highly dissimilar and do not admit meaningful reconstruction significantly reducing their structural dissimilarity.
 
-P1) Structural-mapping theories of knowledge transfer can explain transfer of knowledge only among domains that are structurally similar (or conceived to be structurally similar after appropriate reconstruction).
+P2) Structural-mapping theories of knowledge transfer can explain transfer of knowledge only among domains that are structurally similar (or conceived to be structurally similar after appropriate reconstruction).
 
 C) Structural-mapping theories of knowledge transfer cannot explain the instance of knowledge transfer mentioned in P0.</sdg:PHIL_0000000241>
         <rdfs:label xml:lang="en">forsyth.br2018arg</rdfs:label>
@@ -2482,17 +2584,17 @@ C) Structural-mapping theories of knowledge transfer cannot explain the instance
         </rdf:type>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-22T11:09:00Z</dc:date>
-        <sdg:PHIL_0000000241>P0) Sometimes agents transfer knowledge from domain S to domain T on the basis of their commitment to use knowledge about S to increase knowledge about T, regardless of the structural similarity holding or apparent between S and T (transfer of this type is called &quot;far transfer&quot;).
+        <sdg:PHIL_0000000241>P1) Sometimes agents transfer knowledge from domain S to domain T on the basis of their commitment to use knowledge about S to increase knowledge about T, regardless of the structural similarity holding or apparent between S and T (transfer of this type is called &quot;far transfer&quot;).
 
-P1) Similarities of a structural type (i.e. similarities among superficial items, lower-order relations, or higher-order relations) are not a basis for the commitment to use knowledge about S to increase knolwedge about T.
+P2) Similarities of a structural type (i.e. similarities among superficial items, lower-order relations, or higher-order relations) are not a basis for the commitment to use knowledge about S to increase knolwedge about T.
 
-C0) Structural similarities are not a basis for far transfer.
+C1) Structural similarities are not a basis for far transfer.
 
-P2) The cases of far transfer analyzed reveal thematic similarity between S and T.
+P3) The cases of far transfer analyzed reveal thematic similarity between S and T.
 
-P3) Thematic similarity is a plausible basis for one&apos;s commitment to use knowledge about S to increase knowledge about T.
+P4) Thematic similarity is a plausible basis for one&apos;s commitment to use knowledge about S to increase knowledge about T.
 
-C1) The basis for far transfer is thematical similarity.</sdg:PHIL_0000000241>
+C2) The basis for far transfer is thematical similarity.</sdg:PHIL_0000000241>
         <rdfs:label xml:lang="en">forsyt.br2018arg0</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2542,6 +2644,139 @@ C1) The basis for far transfer is thematical similarity.</sdg:PHIL_0000000241>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-05-30T22:07:13Z</dc:date>
         <rdfs:label xml:lang="en">DieudonnéJ_L&apos;abstraction.et.l&apos;intuition.mathématique_1975</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000311 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000311">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000109"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000313"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000012"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000166"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000314"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-18T01:47:58Z</dc:date>
+        <sdg:PHIL_0000000243>Parikh’s relevance-sensitive axiom (P) for belief revision is open to two different interpretations, i.e. the weak and the strong version of (P), both of which are plausible depending on the context. Given that strong (P) has not received the attention it deserves, in this article, an extended examination of it is conducted. In particular, we point out interesting properties of the semantic characterization of the strong version of (P), as well as a vital feature of it that, potentially, results in a significant drop on the resources required for an implementation of a belief-revision system. Lastly, we shed light on the natural connection between global and local revision functions, via their corresponding semantic characterization, hence, a means for constructing global revision functions from local ones, and vice versa, is provided.</sdg:PHIL_0000000243>
+        <rdfs:label xml:lang="en">AravanisT_A.study.of.possible-worlds.semantic.of.relevance-sensitive.belief.revision_2020</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000314 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000314">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000032"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-07-18T01:50:59Z</dc:date>
+        <rdfs:label xml:lang="en">Aravanis_Theofanis</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000316 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000316">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000015"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000011"/>
+                <owl:someValuesFrom rdf:resource="http://purl.unep.org/sdg/PHIL_0000000317"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000318"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T01:42:05Z</dc:date>
+        <sdg:PHIL_0000000241>P1) Understanding is a necessary element of mathematical practice.
+P2) Understanding involves grasping the meanings of the words.
+P3) Exending a mathematical structure changes the meaning of the signs involved. 
+P4) The meaning of signs after the extension of a mathematical structure is metaphorical.
+P5) The growth of mathematics proceeds by extensions and adaptations of athematics structures given at any particular time.
+C) Metaphors are essential to mathematical practice.</sdg:PHIL_0000000241>
+        <rdfs:label xml:lang="en">van.bendegem2000arg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000318 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000318">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000033"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:12:24Z</dc:date>
+        <rdfs:label xml:lang="en">VanBengedem_JeanPaul</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000319 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000319">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000109"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000010"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000318"/>
+            </owl:Restriction>
+        </rdf:type>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000325"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000321"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:15:29Z</dc:date>
+        <sdg:PHIL_0000000213 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</sdg:PHIL_0000000213>
+        <rdfs:label xml:lang="en">VanBengedemJP_Analogy.And.Metaphor.As.Essential.Tools.For.The.Working.Mathematician_2000</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000321 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000321">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000041"/>
+        <rdf:type>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.unep.org/sdg/PHIL_0000000327"/>
+                <owl:hasValue rdf:resource="http://purl.unep.org/sdg/PHIL_0000000322"/>
+            </owl:Restriction>
+        </rdf:type>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:18:20Z</dc:date>
+        <rdfs:label xml:lang="en">HallynF_Metaphor.and.analogy.in.the.sciences_2000</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000322 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.unep.org/sdg/PHIL_0000000322">
+        <rdf:type rdf:resource="http://purl.unep.org/sdg/PHIL_0000000324"/>
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:19:16Z</dc:date>
+        <rdfs:label xml:lang="en">Hallyn_Fernand</rdfs:label>
     </owl:NamedIndividual>
 </rdf:RDF>
 
