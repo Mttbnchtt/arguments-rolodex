@@ -573,6 +573,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000010 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000010">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain>
@@ -594,7 +595,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000011 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000011">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000334"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain>
             <owl:Class>
@@ -615,6 +616,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000012 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000012">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000334"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain>
             <owl:Class>
@@ -635,6 +637,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000034 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000034">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
         <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000040"/>
@@ -648,6 +651,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000036 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000036">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://purl.unep.org/sdg/PHIL_0000000004"/>
@@ -663,6 +667,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000052">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000050"/>
@@ -676,6 +681,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000053 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000053">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000051"/>
@@ -699,6 +705,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000161 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000161">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000336"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-02-01T23:03:24Z</dc:date>
         <rdfs:label xml:lang="en">affiliated</rdfs:label>
@@ -709,6 +716,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000191 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000191">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <rdfs:range rdf:resource="http://purl.unep.org/sdg/PHIL_0000000188"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-03-06T15:28:48Z</dc:date>
@@ -720,6 +728,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000256 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000256">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000334"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
@@ -735,6 +744,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000325 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000325">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000036"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
@@ -747,6 +757,7 @@
     <!-- http://purl.unep.org/sdg/PHIL_0000000327 -->
 
     <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000327">
+        <rdfs:subPropertyOf rdf:resource="http://purl.unep.org/sdg/PHIL_0000000335"/>
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T02:26:57Z</dc:date>
         <rdfs:label xml:lang="en">has_editor</rdfs:label>
@@ -788,6 +799,36 @@
         <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T13:07:37Z</dc:date>
         <rdfs:label xml:lang="en">undercuts_argument</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000334 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000334">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T13:23:54Z</dc:date>
+        <rdfs:label xml:lang="en">topical_relations</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000335 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000335">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T13:24:15Z</dc:date>
+        <rdfs:label xml:lang="en">bibliographical_relations</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.unep.org/sdg/PHIL_0000000336 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.unep.org/sdg/PHIL_0000000336">
+        <dc:creator rdf:resource="http://orcid.org/0000-0002-3253-4387"/>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-08-06T13:26:12Z</dc:date>
+        <rdfs:label xml:lang="en">biographical_relations</rdfs:label>
     </owl:ObjectProperty>
     
 
